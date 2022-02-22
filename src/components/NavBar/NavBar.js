@@ -1,4 +1,4 @@
-import { SoCLogo } from "../../pages/Images/SoCLogo";
+import { SoCLogo } from "../Images/SoCLogo";
 import ApplyNow from "../ApplyNow/ApplyNow";
 import { NavBarStyled } from "./NavBar.style";
 

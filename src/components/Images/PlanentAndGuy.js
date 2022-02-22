@@ -1,4 +1,4 @@
-export const PlanentAndGuy=<svg  height="100%" viewBox="0 0 216 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const PlanentAndGuy=<svg  width="50%" viewBox="0 0 216 220" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="PlanentAndGuy">
 <g id="Guy">
 <g id="Vector 17">

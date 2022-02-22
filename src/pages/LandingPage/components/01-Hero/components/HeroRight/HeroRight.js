@@ -1,4 +1,4 @@
-import { moonImg } from "../../../../../Images/moonBoy";
+import { moonImg } from "../../../../../../components/Images/moonBoy";
 import { HeroRightStyled } from "./HeroRight.style";
 
 

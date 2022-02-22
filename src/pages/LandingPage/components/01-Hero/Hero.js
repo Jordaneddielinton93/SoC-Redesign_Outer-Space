@@ -1,6 +1,6 @@
 
 import { HeroStyled } from "./HeroStyled";
-import { StripedBox } from "../../../Images/stripeBox";
+import { StripedBox } from "../../../../components/Images/stripeBox";
 import Navbar from "../../../../components/NavBar/NavBar";
 import HeroLeft from "./components/HeroLeft/HeroLeft";
 import HeroRight from "./components/HeroRight/HeroRight";

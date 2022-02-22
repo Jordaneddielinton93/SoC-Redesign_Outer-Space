@@ -1,4 +1,4 @@
-import { PlanentAndGuy } from "../../../Images/PlanentAndGuy";
+import { PlanentAndGuy } from "../../../../components/Images/PlanentAndGuy";
 import { RemoteLearningStyled } from "./RemoteLearning.style";
 
 const RemoteLearning = () => {

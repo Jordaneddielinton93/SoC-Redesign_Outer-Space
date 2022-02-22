@@ -21,6 +21,7 @@ export const HowItWorksStyled=styled.section`
       letter-spacing:3px;
       font-weight:500;
       width: 50%;
+      z-index:2;
 
       &-Underline{
         position: absolute;
@@ -38,5 +39,6 @@ export const HowItWorksStyled=styled.section`
     height:45%;
     display: flex;
     justify-content:space-evenly;
+    z-index:2;
   }
 `

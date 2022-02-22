@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import national from "../../../Images/nationalBootcamp.png"
+import national from "../../../../components/Images/nationalBootcamp.png"
 export const RemoteLearningStyled=styled.section`
   display:flex;
   align-items:center;
@@ -16,18 +16,24 @@ export const RemoteLearningStyled=styled.section`
     height: 90%;
     width: 100%;
     border-radius:35px ;
-    background-color: green;
-    background: url(${national});
-    background-size:cover;
-    background-position:center;
+    
 
     &-LeftSection{
       display: flex;
       justify-content:center;
-      width: 35%;
+      width: 48%;
+      border-top-right-radius:15px ;
+      border-bottom-right-radius:15px ;
+      border-top:#FFDFA5 solid 3px ;
+      border-bottom:#FFDFA5 solid 3px ;
+      z-index:2;
+      
       height :100%;
+      background: url(${national});
+    background-size:cover;
+    background-position:center;
       #PlanentAndGuy{
-        height: 20%;
+     
         animation: planentAndGuy 3s infinite alternate;
         
         /* transform: translateY(0px); */
@@ -48,7 +54,8 @@ export const RemoteLearningStyled=styled.section`
       height :65%;
       color:white;
       text-shadow: 2px 2px black;
-      background: rgba(128,128,128,0.5);
+      /* background: rgba(128,128,128,0.5); */
+      
       &-title{
       font-size:3vw;
 
