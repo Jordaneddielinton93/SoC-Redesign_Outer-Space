@@ -17,7 +17,13 @@
 
 
 <p align="center">
-<img width="90%"  src="https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png">
+<img width="90%"  src="./src/pages/Images/MD-Hero.png">
+
+<p align="center">
+My plan for the future is to then convert this into 3d animations
+</p>
+
+
 </p>
 
   <h2 align="center"> <u> Installation & Packages </u></h2> 
