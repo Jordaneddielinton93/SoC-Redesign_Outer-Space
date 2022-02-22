@@ -13,6 +13,7 @@ const Hero = () => {
 
   const screenContainer={
     position:"relative",
+    justifyContent:"space-between",
     "alignSelf":"center",
     "width":"90%",
     "height":"85%",

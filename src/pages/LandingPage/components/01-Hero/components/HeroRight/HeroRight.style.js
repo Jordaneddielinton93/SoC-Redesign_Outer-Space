@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroRightStyled = styled.section`
-  width:50%;
+  width:35%;
   height:100%;
   max-height:100%;
   display:flex;

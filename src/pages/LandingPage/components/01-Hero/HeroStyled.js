@@ -5,9 +5,11 @@ export const HeroStyled=styled.div`
     flex-direction:column;
     margin-top:10px;  
     position:relative;
-    width: 95%;
-    height:98vh;
+    width: 99%;
+    height:100vh;
     background-color: black;
+    transition: background-image 1s;
+
     background-image: linear-gradient(180deg, ${({darkmode})=>darkmode} 90%, #FFDFA5 100%);
     /* border-radius:15px; */
     border-top-right-radius:15px;

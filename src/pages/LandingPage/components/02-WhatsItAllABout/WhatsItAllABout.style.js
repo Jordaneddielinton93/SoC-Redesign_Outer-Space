@@ -5,7 +5,7 @@ export const WhatsItAllABoutStyle=styled.section`
   align-items:center;
   justify-content:space-between;
   width: 95%;
-  height: 600px;
+  height: 700px;
   background:#000717 ;
   background-color: ${({darkmode})=>darkmode};
 
@@ -16,7 +16,7 @@ export const WhatsItAllABoutStyle=styled.section`
     
     &-title{
       position: relative;
-      font-size:3vw;
+      font-size:4vw;
       text-align:left;
       margin-left:5%;
       letter-spacing:3px;
@@ -60,7 +60,7 @@ export const WhatsItAllABoutStyle=styled.section`
       align-items:center;
       justify-content:center;
       height: 98%;
-      width: 80%;
+      width: 90%;
       border:solid 3px ${({darkmodeBool})=>darkmodeBool?"black":"#FFDFA5"};
       border-radius:25px;
 

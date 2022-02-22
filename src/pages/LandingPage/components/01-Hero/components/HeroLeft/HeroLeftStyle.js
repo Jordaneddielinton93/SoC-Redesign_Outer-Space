@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroLeftStyle= styled.div`
-    width:50%;
+    width:65%;
     height:100%;
     display:flex;
     flex-direction:column;
@@ -10,17 +10,18 @@ export const HeroLeftStyle= styled.div`
     justify-content:center;
     text-align:left;
     z-index:1;
+    
     .landingfonts{
       display: flex;
       justify-content:space-evenly;
       flex-direction:column;
       align-self:center;
       height:60%;
-      width: 80%;
+      width: 90%;
 
       &-TechLaunch{
         position: relative;
-        font-size:4vw;
+        font-size:6vw;
         color:#000717;
         text-shadow:
         -1px -1px 0 #FFDFA5,  

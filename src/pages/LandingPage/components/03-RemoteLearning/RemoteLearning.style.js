@@ -5,7 +5,7 @@ export const RemoteLearningStyled=styled.section`
   align-items:center;
   justify-content:space-between;
   width: 95%;
-  height: 800px;
+  height: 700px;
   background:#000717 ;
   background-color: ${({darkmode})=>darkmode};
 
@@ -14,7 +14,7 @@ export const RemoteLearningStyled=styled.section`
     display:flex;
     justify-content:space-between;
     align-items:center;
-    align-self:end;
+    align-self:center;
     height: 90%;
     width: 100%;
     border-radius:35px ;
@@ -24,6 +24,7 @@ export const RemoteLearningStyled=styled.section`
       display: flex;
       justify-content:center;
       width: 48%;
+      height: 90%;
       border-top-right-radius:15px ;
       border-bottom-right-radius:15px ;
       border-top:#FFDFA5 solid 3px ;
