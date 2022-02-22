@@ -4,7 +4,7 @@ export const RemoteLearningStyled=styled.section`
   display:flex;
   align-items:center;
   justify-content:space-between;
-  width: 95%;
+  width: 99%;
   height: 700px;
   background:#000717 ;
   background-color: ${({darkmode})=>darkmode};

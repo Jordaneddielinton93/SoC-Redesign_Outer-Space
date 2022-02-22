@@ -7,7 +7,7 @@ export const HowItWorksStyled=styled.section`
   height:500px;
   width: 100%;
   background-image: linear-gradient(0deg, black 96%, #FFDFA5 100%);
-  width: 95%;
+  width: 99%;
   color:white;
 
 
