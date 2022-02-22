@@ -1,9 +1,13 @@
+import { useContext } from "react";
+import { appContext } from "../../../../App";
 import { PlanentAndGuy } from "../../../../components/Images/PlanentAndGuy";
 import { RemoteLearningStyled } from "./RemoteLearning.style";
 
 const RemoteLearning = () => {
+  let {state}=useContext(appContext)
+
   return ( 
-    <RemoteLearningStyled >
+    <RemoteLearningStyled darkmode={state.darkmode} darkmodeBool={state.darkmodeBool}>
       <main className="RemoteLearning">
         <section className="RemoteLearning-LeftSection">
           {PlanentAndGuy}

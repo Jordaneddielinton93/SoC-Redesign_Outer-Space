@@ -7,7 +7,9 @@ export const RemoteLearningStyled=styled.section`
   width: 95%;
   height: 800px;
   background:#000717 ;
-  background-color: black;
+  background-color: ${({darkmode})=>darkmode};
+
+  
   .RemoteLearning{
     display:flex;
     justify-content:space-between;
@@ -29,7 +31,7 @@ export const RemoteLearningStyled=styled.section`
       z-index:2;
       
       height :100%;
-      background: url(${national});
+      background:black url(${national});
     background-size:cover;
     background-position:center;
       #PlanentAndGuy{
@@ -52,8 +54,8 @@ export const RemoteLearningStyled=styled.section`
     &-RightSection{
       width: 50%;
       height :65%;
-      color:white;
-      text-shadow: 2px 2px black;
+      color:${({darkmodeBool})=>darkmodeBool?"black":"white"};
+      
       /* background: rgba(128,128,128,0.5); */
       
       &-title{
@@ -73,7 +75,7 @@ export const RemoteLearningStyled=styled.section`
         left:0%;
         height:5px;
         width: 100%;
-        background: #FFDFA5;
+        background:${({darkmodeBool})=>darkmodeBool?"#2DA8DE":"#FFDFA5"} ;
         z-index:3;
       }
     }
